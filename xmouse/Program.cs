@@ -107,7 +107,7 @@ namespace xmouse
 
 		static void Main(string[] args)
 		{
-			ActiveWindowTracking.Timeout = 128;
+			ActiveWindowTracking.Timeout = 200;
 			ActiveWindowTracking.Enabled = true;
 			ActiveWindowTracking.RaiseOnFocus = false;
 
